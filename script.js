@@ -1,7 +1,5 @@
-/* ========================= */
-/* ANIMATION SCROLL */
-/* ========================= */
 
+/* ANIMATION SCROLL */
 function revealSections() {
 
     const reveals =
@@ -37,9 +35,7 @@ window.addEventListener(
     revealSections
 );
 
-/* ========================= */
 /* BOUTON RETOUR HAUT */
-/* ========================= */
 
 const topBtn =
 document.getElementById("topBtn");
@@ -76,9 +72,7 @@ topBtn.addEventListener("click", () => {
 
 });
 
-/* ========================= */
 /* SCROLL FLUIDE */
-/* ========================= */
 
 document.querySelectorAll(
 'a[href^="#"]'
@@ -106,7 +100,6 @@ document.querySelectorAll(
 
 });
 
-/* ========================= */
 /* ACTIVE AU CHARGEMENT */
 /* ========================= */
 
